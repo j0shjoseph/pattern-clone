@@ -1,6 +1,5 @@
 import { ZoneCard } from "@/components/ui/ZoneCard";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { MeetingDialog } from "@/components/ui/MeetingDialog"
 
 
