@@ -1,6 +1,8 @@
 import { ZoneCard } from "@/components/ui/ZoneCard";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { MeetingDialog } from "@/components/ui/MeetingDialog"
+
 
 export default function Home() {
   const zones = [
@@ -38,7 +40,7 @@ return (
         <DialogHeader>
           <DialogTitle>Schedule a new meeting</DialogTitle>
         </DialogHeader>
-        {/* Form coming tomorrow */}
+        {<MeetingDialog />}
       </DialogContent>
     </Dialog>
   </>
