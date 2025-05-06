@@ -24,25 +24,8 @@ return (
       <Button variant="outline" className="border-dashed border rounded-full text-sm px-4 py-2">
         + Add
       </Button>
-
-      <Button disabled variant="ghost" className="opacity-40 rounded-xl px-6 py-2">
-        Schedule meeting
-      </Button>
+      <MeetingDialog />
     </div>
-
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button className="rounded-xl px-6 py-2">
-          Schedule meeting
-        </Button>
-      </DialogTrigger>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>Schedule a new meeting</DialogTitle>
-        </DialogHeader>
-        {<MeetingDialog />}
-      </DialogContent>
-    </Dialog>
   </>
 );
 }
